@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vcenter=true&width=650&lines=Data+Science+%26+Engineering+Student;Space+Tech+%26+Satellite+Navigation+Interest;Machine+Learning+%26+Backend+Developer;Building+Scalable+Software+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vcenter=true&width=680&lines=Full+Stack+Engineer+%7C+Applied+AI%2FML;ISRO+ISTRAC+Navigation+Systems+Intern;Apache+Kafka+%26+Real-Time+Telemetry+Streams;KIIT+University+CS+%26+Communication+Engineer" alt="Typing SVG" />
   </a>
 </div>
 
@@ -10,130 +10,70 @@
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 Professional Summary
 
-🎓 **B.Tech – Data Science & Engineering**  
-🏛️ **KIIT University, Bhubaneswar** (2023–2027)
+Full Stack Engineer with applied AI/ML expertise, building production-deployed systems using **React, Node.js, FastAPI, Flask**, and machine learning pipelines. Hands-on experience in **real-time data streaming (Apache Kafka)**, **GNSS signal processing (NavIC at ISRO ISTRAC)**, **microservices architecture**, **secure authentication (JWT)**, and **containerized cloud deployments (Docker)**. Proven ability to deliver end-to-end solutions from binary protocol decoding to modern web dashboards.
 
-💻 Passionate about building real-world software systems, data-driven applications, and machine learning pipelines. My technical interest spans core software engineering to specialized domains in space systems and satellite navigation.
-
-⚡ **Interests Include:**
-- 🌌 **Space Technology & Satellite Navigation Systems**
-- 🧠 **Machine Learning & Data Science Pipelines**
-- ⚙️ **Backend Development & Scalable API Architecture**
-- 👁️ **Computer Vision & Image Processing**
-- 🐧 **Linux Systems & DevOps Containerization**
-- 🧩 **Data Structures & Algorithms**
+🎓 **KIIT University, Bhubaneswar** — B.Tech in Computer Science & Communication Engineering (**CGPA: 8.10/10**, Exp. July 2027)  
+🏫 **VKV Port Blair** — Class XII (**80%**, May 2023) | Class X (**96%**, May 2021)
 
 ---
 
-### 🎯 Current Focus
+### 💼 Work Experience & Engineering Internships
 
-- 🚀 **Space Technology & Satellite Navigation Systems**
-- 🧠 **Machine Learning Models & AI Workflows**
-- ⚙️ **Backend Development (FastAPI / Python / Node.js)**
-- 👁️ **Computer Vision with OpenCV**
-- 🧩 **Data Structures & Graph Algorithms**
-- 🐧 **Linux Systems & Bash Automation**
-- 🧱 **Scalable API Architecture & Microservices**
+#### 🚀 Indian Space Research Organisation (ISRO) – ISTRAC
+> **Software Engineering Intern, Navigation Systems Area** | *Bengaluru, Karnataka (May 2026 – June 2026)*
 
----
+- 📡 **Real-Time Telemetry System**: Designed and developed a Real-Time NavIC Scintillation Monitoring and Visualization System for live GNSS telemetry streams at ISRO Telemetry, Tracking and Command Network (ISTRAC).
+- 📦 **Binary Packet Decoding**: Built a binary packet decoding pipeline to parse raw telemetry frames — extracting sync words, packet headers, timestamps, and GNSS observables (`PRN`, `CNo`, `PSR`, `ADR`, `Doppler`).
+- ⚡ **Apache Kafka Streaming**: Integrated Apache Kafka as the real-time streaming backbone with SSL-authenticated broker connections for multi-station telemetry isolation.
+- 🧮 **Scintillation Processing Engine**: Implemented processing engine computing key ionospheric metrics: `S4 Index`, `Sigma-Phi`, `Sigma-CCD`, and `ROTI` using rolling observation buffers and statistical filtering.
+- 📊 **Browser Dashboard**: Developed interactive monitoring dashboard in `NiceGUI` (migrated from PyQt6) enabling real-time browser visualization of satellite signal quality.
+- 🗄️ **PostgreSQL Telemetry Storage**: Architected PostgreSQL metrics storage with time-range query support (daily, weekly, monthly) and retention aggregation strategies.
 
-### 🧠 Tech Stack
+#### 🏛️ National Informatics Centre (NIC)
+> **Web Development Intern** | *Andaman & Nicobar Islands (May 2025 – June 2025)*
 
-#### 💻 Languages & Data Science
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,html,css" alt="Languages" />
-  </a>
-</p>
-<!-- verify this tool/language applies to you: python -->
-<!-- verify this tool/language applies to you: cpp -->
-<!-- verify this tool/language applies to you: c -->
-<!-- verify this tool/language applies to you: ts -->
-<!-- verify this tool/language applies to you: js -->
-<!-- verify this tool/language applies to you: html -->
-<!-- verify this tool/language applies to you: css -->
-
-#### 🤖 ML, Frameworks & Backend
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,fastapi,flask,react,nodejs,express,tailwind" alt="Frameworks" />
-  </a>
-</p>
-<!-- verify this tool/language applies to you: tensorflow -->
-<!-- verify this tool/language applies to you: pytorch -->
-<!-- verify this tool/language applies to you: sklearn -->
-<!-- verify this tool/language applies to you: opencv -->
-<!-- verify this tool/language applies to you: fastapi -->
-<!-- verify this tool/language applies to you: flask -->
-<!-- verify this tool/language applies to you: react -->
-<!-- verify this tool/language applies to you: nodejs -->
-<!-- verify this tool/language applies to you: express -->
-<!-- verify this tool/language applies to you: tailwind -->
-
-#### 🛠️ Tools, Databases & DevOps
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode,postman,mongodb,supabase" alt="Tools" />
-  </a>
-</p>
-<!-- verify this tool/language applies to you: docker -->
-<!-- verify this tool/language applies to you: git -->
-<!-- verify this tool/language applies to you: github -->
-<!-- verify this tool/language applies to you: linux -->
-<!-- verify this tool/language applies to you: vscode -->
-<!-- verify this tool/language applies to you: postman -->
-<!-- verify this tool/language applies to you: mongodb -->
-<!-- verify this tool/language applies to you: supabase -->
-
-#### 💡 Core Concepts
-- Data Structures & Algorithms
-- Graph Algorithms
-- REST API Architecture
-- Computer Vision & Feature Extraction
-- System Design & Microservices
+- 🚗 **Convoy Management System**: Developed a full-stack Convoy Management System using React, Node.js, Express.js, and MySQL for a government operational checkpost use case.
+- 🔗 **Normalized Schemas & REST APIs**: Designed database schemas and built RESTful APIs with `Sequelize ORM` for efficient data retrieval and backend integration.
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Production Projects
 
-#### 🤖 [SupportDeskAI](https://github.com/shreyashkumarsingh/SupportDeskAI)
-> **AI-Powered Support Ticket Classification & Governance System**
+#### ⚡ [FocusFlowAI](https://github.com/shreyashkumarsingh/focusFlowAI)
+> **React • Node.js • MongoDB • Flask • Docker** | [Live Demo](https://focusflowai-f.onrender.com/) • [GitHub](https://github.com/shreyashkumarsingh/focusFlowAI)
 
-An intelligent ticket classification platform equipped with Machine Learning prediction, human-in-the-loop override capabilities, automated feedback loops, and comprehensive audit trails.
+- Built a microservices-based AI productivity platform integrating React (TypeScript), Express.js backend, and Python-based ML services using Docker Compose orchestration.
+- Implemented JWT-secured authentication with bcrypt password hashing and MongoDB indexing, improving analytics query performance significantly.
+- Engineered ML pipelines for behavioral pattern analysis and real-time productivity insights, resolving deployment coordination, authentication persistence, and production CORS issues.
 
-- 🔹 **AI-Powered Classification**: ML models for automated ticket categorization into incidents, requests, and problems.
-- 🔹 **Human-in-the-Loop**: Active feedback loop allowing agents to confirm or override AI predictions to improve model accuracy.
-- 🔹 **Governance & Security**: Role-Based Access Control (Admin, Agent, Viewer) with audit logging and Supabase authentication.
-- 🔹 **Batch Processing & Analytics**: CSV bulk upload support with interactive prediction accuracy dashboards.
-- 🛠️ **Tech**: `Python` • `FastAPI` • `React` • `TypeScript` • `Scikit-Learn` • `Supabase` • `Tailwind CSS`
+#### 🤖 [SupportDesk AI](https://github.com/shreyashkumarsingh/SupportDeskAI)
+> **FastAPI • scikit-learn • React • Supabase** | [Live Demo](https://supportdeskai-f.onrender.com) • [GitHub](https://github.com/shreyashkumarsingh/SupportDeskAI)
 
----
+- Developed an AI-powered ticket classification system using TF-IDF vectorization and scikit-learn, achieving automated routing with configurable fallback logic for service continuity.
+- Designed role-based access workflows (RBAC) for agents and admins; optimized production deployment using lazy model loading and lean dependency management.
+- Resolved production deployment failures and CORS issues, ensuring stable containerized delivery.
 
-#### ⚡ [focusFlowAI](https://github.com/shreyashkumarsingh/focusFlowAI)
-> **AI-Powered Productivity & Task Management Microservice Platform**
+#### 💼 [NextHire AI](https://github.com/shreyashkumarsingh/nextHire)
+> **React • Flask • PostgreSQL • Docker** | [Live Demo](https://nexthire-2dkf.onrender.com/) • [GitHub](https://github.com/shreyashkumarsingh/nextHire)
 
-A full-stack productivity ecosystem featuring ML-driven burnout risk analysis, intelligent task duration estimation, and real-time behavioral insights.
-
-- 🔹 **ML Burnout Prediction**: Supervised learning algorithm analyzing work intensity, completion rates, and estimation error.
-- 🔹 **Pomodoro Focus Engine**: Interactive focus timer coupled with task tracking dashboards.
-- 🔹 **Microservices Architecture**: React frontend, Node.js/Express backend API, and Python/Flask ML microservice.
-- 🔹 **Database Optimization**: Strategic MongoDB indexing achieving 80% query latency reduction.
-- 🛠️ **Tech**: `React` • `TypeScript` • `Node.js` • `Express` • `Python` • `Flask` • `MongoDB` • `Docker`
+- Built and deployed an AI resume screening platform integrating NLP-based resume parsing, keyword extraction, and job-fit scoring for automated candidate ranking.
+- Implemented JWT authentication, SQLAlchemy ORM database models, and containerized full stack using Docker and Gunicorn for production-grade deployment.
+- Resolved routing conflicts, deployment failures, and JWT validation edge cases across full application lifecycle.
 
 ---
 
-#### 💼 [nextHire](https://github.com/shreyashkumarsingh/nextHire)
-> **AI Resume Screening & Candidate Matching System**
+### 🧠 Technical Skills
 
-An automated resume parsing and candidate matching system that streamlines recruitment workflows using natural language processing and computer vision algorithms.
-
-- 🔹 **Drag & Drop Parser**: Fast extraction of structured candidate profiles from PDF, DOCX, and TXT files.
-- 🔹 **Skill Matching Engine**: Automated candidate scoring against custom job requirements.
-- 🔹 **Analytics Dashboard**: Interactive charts visualizing candidate score distribution and top skills using Recharts.
-- 🔹 **Modern UI**: Full dark/light mode toggle with responsive sidebar and table controls.
-- 🛠️ **Tech**: `React` • `Tailwind CSS` • `Vite` • `Flask` • `PyPDF2` • `python-docx` • `Recharts`
+- **Languages**: Python, JavaScript (ES6+), TypeScript, SQL, C++
+- **Frontend**: React.js, TypeScript, Tailwind CSS, Vite, NiceGUI, PyQt6
+- **Backend**: Node.js, Express.js, FastAPI, Flask, REST APIs
+- **Databases**: MongoDB, PostgreSQL, MySQL, Supabase, MongoDB Atlas
+- **AI / ML**: scikit-learn, TF-IDF, NLP, ML Inference Pipelines, Model Deployment
+- **Real-Time & Streaming**: Apache Kafka, WebSockets, SSL/TLS Configuration
+- **DevOps & Cloud**: Docker, Docker Compose, Gunicorn, Render, Vercel
+- **Security & Tools**: JWT Authentication, bcrypt, Role-Based Access Control (RBAC), CORS, Git, Postman, Sequelize ORM, SQLAlchemy, Linux/Unix
 
 ---
 
@@ -159,15 +99,6 @@ An automated resume parsing and candidate matching system that streamlines recru
 
 ---
 
-### 🎵 Hobbies & Interests
-
-- ♟️ **Chess**
-- 🌌 **Space Exploration & Satellite Tech**
-- 🎧 **Music**
-- ✈️ **Travelling**
-
----
-
 ### 📬 Connect With Me
 
 <p align="left">
@@ -189,5 +120,5 @@ An automated resume parsing and candidate matching system that streamlines recru
 ---
 
 <p align="center">
-  <b>Code • Build • Innovate • Repeat</b>
+  <b>Code • Build • Learn • Repeat</b>
 </p>
